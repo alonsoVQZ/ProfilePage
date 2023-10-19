@@ -1,0 +1,91 @@
+#SwitchTheme-d1 {
+    height: 26px;
+    width: 50px;
+    /* border: 2px solid black; */
+    /* border-radius: 15px; */
+    box-sizing: border-box;
+    margin-left: 1000px;
+    transition: all 0.3s ease;
+
+}
+
+.test3 {
+    background-color: #caf0f8;
+}
+
+.test4 {
+    background-color: #001d3d;
+}
+
+.SwitchTheme-d1d1 {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+
+}
+
+.test1 {
+    transform: translate(1px, 1px);
+}
+
+.test2 {
+    transform: translate(calc(100%), 100%);
+}
+
+#SwitchTheme-d1d1d1 {
+    /* height: 20px;
+    width: 20px; */
+    border-radius: 50%;
+    background-color: orange;
+}
+
+#SwitchTheme-d1d1d2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#parent {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: black;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    background-color: aliceblue;
+    transition: all 1s;
+}
+
+#child {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+#gChild {
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+    transition: all 1s;
+}
+
+.gChildDay {
+    background-color: orange;
+}
+
+.gChildNight {
+    background-color: White;
+}
